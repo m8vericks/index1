@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="phundharees.css" />
+    <title>phundharees</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rock+3D&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre+SemiBold&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Slackey&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    
+  <div class="bigdesktop"></div> 
+     <div class="cursor pointer-events-none fixed left-1/2 top-1/2 z-[999] hidden h-3 w-3 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-secondary-600 sm:flex" style="left: 674px; top: 791px; width: 12px; height: 12px;">
+         <svg xmlns="http://www.w3.org/2000/svg" class="scale-50 opacity-0" width="24" height="24" viewBox="0 0 24 24" style="height: 24px; width: 12px; opacity: 0;">
+              <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 19L19 6m0 0v12.48M19 6H6.52"></path>
+         </svg>
+     </div>
+     <div class="navbar" id="navber">
+        <div class="btn"></div>
+        <div class="menu"><div class="home"><a href="#navber">HOME</a></div>
+        <div class="meandmyself" ><a href="#ME AND MYSELF">ME AND MYSELF</a></div>
+        <div class="whyme"><a href="#whyme">WHY ME</a></div>
+        <div class="port"><a href="#port">PORTFOLIO</a></div>
+        <div class="letstalk"><a href="#letstalk">LETS TALK</a></div>
+     </div>
+        
+        
+     </div>
+ 
+       
+     <div class="con1">
+        <div class="name">PHUNDHAREE<br>SIRISOM</div>
+        <div class="pic0">
+        <img src="https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="600px" height="auto"></a>
+        </div>
+        
+     </div>
+
+     <section class="con2">
+          
+          <div class="con21">
+             <div class="con211">ME and MYSELF</div>
+             <div class="con222">I have always spent my life for just only tomorrow or maybe tomorrow of tomorrow</div>
+          </div>
+          <div id="ME AND MYSELF">
+            <img src="/wtfpic.jpg" width="200px" height="1000px">
+          </div>
+          <div class="con220">
+             <div class="con22">Phundharee Sirisom<br>Earth<br>17 years old</div>
+          </div>
+        </section>
+        <div class="con23" style="transform: rotate(2deg);">
+         <img src="https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="350px" height="auto"></a>
+         <img src="https://images.unsplash.com/photo-1588580000645-4562a6d2c839?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="350px" height="auto"></a>
+         <img src="https://images.unsplash.com/photo-1563014959-7aaa83350992?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="350px" height="auto"></a>
+         <img src="https://images.unsplash.com/photo-1564518440696-ef272968778e?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="350px" height="auto"></a>
+        </div>
+        <script>
+          const images = document.querySelectorAll('.con23 img');
+        
+          function handleMove(event) {
+            const { clientX } = event;
+            const moveX = (clientX - window.innerWidth / 2) / 10; 
+            images.forEach(img => {
+              img.style.transform = `translateX(${moveX}px)`;
+            });
+          }
+        
+          document.addEventListener('mousemove', handleMove);
+          document.addEventListener('touchmove', (event) => {
+        
+            event.preventDefault();
+            handleMove(event.touches[0]);
+          });
+        
+          document.addEventListener('mouseleave', () => {
+            images.forEach(img => {
+              img.style.transform = 'translateX(0)';
+            });
+          });
+        </script>
+        <div class="con24"></div>
+
+     </div>
+
+
+     <div class="con3" id="whyme">
+        <div class="con31">Why choose<br>PHUNDHAREE<br>SIRISOM?</div>
+        <div class="con32"></div>
+     </div>
+
+
+     <div class="con4" id="port">
+         <div class="con40">MY PORTFOLIO</div>
+         <div class="con41"></div>
+         <div class="con42"></div>
+         <div class="con41"></div>
+         <div class="con42"></div>
+     </div>
+       
+     <div class="con5" id="letstalk"></div>
+         <div class="con51"></div>
+         <div class="con52"></div>
+    
+
+
+    
+    </div>
+  </body>
+</html>
